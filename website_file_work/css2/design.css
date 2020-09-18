@@ -1,0 +1,36 @@
+
+form{
+  background: violet;
+
+}
+p{
+  font-size: 30px;
+
+}
+.question{
+  font-family:sans-serif;
+
+}
+#small{
+  color: black;
+  font-size: 17px;
+  font-family:sans-serif;
+
+
+}
+#large{
+  font-size: 30px;
+  color: blue;
+
+}
+.abc{
+  color: green;
+}
+#button
+{
+  color: black;
+  margin-left: auto;
+  margin-top:20px;
+  background-color: red;
+
+}

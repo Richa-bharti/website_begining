@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>PEEYUSH KUMAR-CSE/36/18</title>
+    <style media="screen">
+      ul{
+        display:block;}
+    </style>
+  </head>
+  <body bgcolor="chartreuse">
+    <h1 id="firstheader " style="color:black;">Welcome To Dynamic HTML</h1>
+    <p><a href="#", id="clickablelink">Dynamic styles are a key feature of DHTML. </a></p>
+    <ul id="unorderedlist">
+      <li>DHTML means Dynamic HyperText Markup Language.</li>
+      <li>we can do lot of things using DHTML .some of them are :</li>
+      <ol>
+        <li>change the color,size,and typeface of text.</li>
+        <li>show and hide text</li>
+        <li>And much more, we can do by using DHTML.</li>
+      </ol>
+
+    </ul>
+    <script>
+      function showMe(){
+        document.getElementById("firstheader").style.color="green";
+        document.getElementById("unorderedlist").style.display="block";
+
+      }
+      document.getElementById("clickablelink").addEventListener("click" , function(e){
+        e.preventDefault();
+        showMe();
+
+      });
+
+    </script>
+
+  </body>
+</html>
